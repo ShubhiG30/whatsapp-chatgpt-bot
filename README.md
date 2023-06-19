@@ -2,26 +2,28 @@
  # install flask
 the WebHook URL must be provided for the server to trigger our script for incoming messages. we will deployed the server using the FLASK microframework. The FLASK server allows us to conveniently process incoming requests.
 
-pip install flask
+> pip install flask
 
 Then clone the repository for yourself.
 
 # install ngrok
 for local development purposes, a tunneling service is required.
 
-Create Virtual Evironment.
-virtualenv env --python=python3
+# run these files
+
+## Create Virtual Evironment.
+> virtualenv env --python=python3
 Activate Virtual Evironment.
 
-source env/bin/activate
-Install All Required Libraries.
+> source env/bin/activate
+## Install All Required Libraries.
 
-pip install -r requirements.txt
-Then Run Python flask App.
+> pip install flask openai
+> 
+## Then Run Python flask App.
+> python app.py
 
-python whatsapp.py
-
-Run ngrok
+## Run ngrok
 Run ngrok For Windows :
 ngrok http 5000
 
