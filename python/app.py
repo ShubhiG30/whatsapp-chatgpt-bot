@@ -3,7 +3,7 @@ import openai
 from twilio.twiml.messaging_response import MessagingResponse
 
 app = Flask(__name__)
-openai.api_key = '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'
+openai.api_key = 'write your api key of openapi'
 
 def generate_answer(question):
   model_engine = "text-davinci-002"
